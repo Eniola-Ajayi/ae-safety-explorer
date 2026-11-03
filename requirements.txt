@@ -1,0 +1,17 @@
+# API
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pandas>=2.0
+pydantic>=2.0
+
+# App
+streamlit>=1.30
+requests>=2.31
+
+# Tests
+pytest>=8.0
+httpx>=0.27     # required by fastapi.testclient
+
+# Optional: only needed to use a real LLM (set OPENAI_API_KEY)
+langchain-core>=0.3
+langchain-openai>=0.2
